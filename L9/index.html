@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Note dApp</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- ethers.js -->
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/ethers@5.7.2/dist/ethers.umd.min.js"
+      type="application/javascript"
+    ></script>
+
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <div>
+      <h1>Note dApp</h1>
+      <p>you can write notes and read notes from smart-contract</p>
+
+      <label for="note">Write note:</label>
+      <input type="text" id="note" />
+
+      <button onclick="setNote()">Set Note</button>
+      <button onclick="getNote()">Get Note</button>
+
+      <p>My note: <span id="result"></span></p>
+    </div>
+  </body>
+</html>
