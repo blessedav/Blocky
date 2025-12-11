@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RPS Game</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Ethers.js CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ethers/5.7.2/ethers.umd.min.js"></script>
+</head>
+
+<body>
+<header>
+    <div class="header-left">
+        <h1>Rock • Paper • Scissors</h1>
+        <p class="subtitle">Play on-chain — win real funds</p>
+    </div>
+
+    <div class="wallet-panel">
+        <div class="wallet-row">
+            <button id="connectBtn" class="btn">Connect Wallet</button>
+            <select id="accountSelect" class="select" title="Select account"></select>
+        </div>
+        <div class="wallet-row">
+            <span id="walletAddress" class="muted">Not connected</span>
+            <span id="walletBalance" class="muted"></span>
+        </div>
+    </div>
+</header>
+
+<main class="container">
+    <section class="left-col">
+        <div class="score-board">
+            <div id="user-label" class="badge">you</div>
+            <div id="computer-label" class="badge">contract</div>
+            <span id="user-score">0</span>:<span id="computer-score">0</span>
+        </div>
+
+        <div class="result">
+            <p id="resultText">Make your move.</p>
+        </div>
+
+        <div class="choices">
+            <button class="choice" id="r" title="Rock"><img src="images/rock.png" alt="Rock" /></button>
+            <button class="choice" id="p" title="Paper"><img src="images/paper.png" alt="Paper" /></button>
+            <button class="choice" id="s" title="Scissors"><img src="images/scissors.png" alt="Scissors" /></button>
+        </div>
+
+        <div id="action-msg" class="muted">Each play uses 0.0001 BNB (adjustable by contract).</div>
+    </section>
+
+    <aside class="right-col">
+        <div class="panel">
+            <h3>Game History</h3>
+            <div id="history" class="history">
+                <p class="muted">No games yet.</p>
+            </div>
+            <button id="loadMore" class="btn small">Reload history</button>
+        </div>
+
+        <div class="panel">
+            <h3>Contract</h3>
+            <div class="muted">Address: <span id="contractAddr">0x5353E51A8176337BEB0246ea849e96ad8aCb56Ae</span></div>
+            <div class="muted">Min bet: <span id="minBet">—</span></div>
+            <div class="muted">Contract balance: <span id="contractBalance">—</span></div>
+        </div>
+    </aside>
+</main>
+
+<script src="app.js"></script>
+</body>
+</html>
