@@ -1,0 +1,23 @@
+{
+  "name": "Certificate #6",
+  "description": "Official Graduation Certificate for Ivan 7",
+  "image": "ipfs://bafybeicormtmman3lohk7uehglilggyym53aiubue3hl5bcog2o6kehngm/1.jpg",
+  "attributes": [
+    {
+      "trait_type": "Student Name",
+      "value": "Ivan 7"
+    },
+    {
+      "trait_type": "Program",
+      "value": "Fullstack Python"
+    },
+    {
+      "trait_type": "Grade",
+      "value": "A"
+    },
+    {
+      "trait_type": "Batch",
+      "value": "2024"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Certificate #1",
+  "description": "Official Graduation Certificate for Dmitry 2",
+  "image": "ipfs://bafybeicormtmman3lohk7uehglilggyym53aiubue3hl5bcog2o6kehngm/1.jpg",
+  "attributes": [
+    {
+      "trait_type": "Student Name",
+      "value": "Dmitry 2"
+    },
+    {
+      "trait_type": "Program",
+      "value": "Frontend React"
+    },
+    {
+      "trait_type": "Grade",
+      "value": "B"
+    },
+    {
+      "trait_type": "Batch",
+      "value": "2024"
+    }
+  ]
+}

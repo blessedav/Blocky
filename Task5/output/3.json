@@ -1,0 +1,23 @@
+{
+  "name": "Certificate #3",
+  "description": "Official Graduation Certificate for Dmitry 4",
+  "image": "ipfs://bafybeicormtmman3lohk7uehglilggyym53aiubue3hl5bcog2o6kehngm/3.jpg",
+  "attributes": [
+    {
+      "trait_type": "Student Name",
+      "value": "Dmitry 4"
+    },
+    {
+      "trait_type": "Program",
+      "value": "Fullstack Python"
+    },
+    {
+      "trait_type": "Grade",
+      "value": "B"
+    },
+    {
+      "trait_type": "Batch",
+      "value": "2024"
+    }
+  ]
+}

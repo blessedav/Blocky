@@ -1,0 +1,23 @@
+{
+  "name": "Certificate #2",
+  "description": "Official Graduation Certificate for Maria 3",
+  "image": "ipfs://bafybeicormtmman3lohk7uehglilggyym53aiubue3hl5bcog2o6kehngm/2.jpg",
+  "attributes": [
+    {
+      "trait_type": "Student Name",
+      "value": "Maria 3"
+    },
+    {
+      "trait_type": "Program",
+      "value": "Cybersecurity"
+    },
+    {
+      "trait_type": "Grade",
+      "value": "B"
+    },
+    {
+      "trait_type": "Batch",
+      "value": "2024"
+    }
+  ]
+}

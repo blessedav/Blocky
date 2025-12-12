@@ -1,0 +1,23 @@
+{
+  "name": "Certificate #9",
+  "description": "Official Graduation Certificate for Olga 10",
+  "image": "ipfs://bafybeicormtmman3lohk7uehglilggyym53aiubue3hl5bcog2o6kehngm/4.jpg",
+  "attributes": [
+    {
+      "trait_type": "Student Name",
+      "value": "Olga 10"
+    },
+    {
+      "trait_type": "Program",
+      "value": "Blockchain Dev"
+    },
+    {
+      "trait_type": "Grade",
+      "value": "A+"
+    },
+    {
+      "trait_type": "Batch",
+      "value": "2024"
+    }
+  ]
+}

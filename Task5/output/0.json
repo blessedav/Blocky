@@ -1,0 +1,23 @@
+{
+  "name": "Certificate #0",
+  "description": "Official Graduation Certificate for Kate 1",
+  "image": "ipfs://bafybeicormtmman3lohk7uehglilggyym53aiubue3hl5bcog2o6kehngm/image.jpg",
+  "attributes": [
+    {
+      "trait_type": "Student Name",
+      "value": "Kate 1"
+    },
+    {
+      "trait_type": "Program",
+      "value": "Frontend React"
+    },
+    {
+      "trait_type": "Grade",
+      "value": "A"
+    },
+    {
+      "trait_type": "Batch",
+      "value": "2024"
+    }
+  ]
+}
